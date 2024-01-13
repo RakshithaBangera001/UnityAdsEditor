@@ -1,0 +1,291 @@
+{
+    "name": "Panel",
+    "position": {
+        "x": 10.0,
+        "y": 20.0
+    },
+    "rotation": 0.0,
+    "scale": {
+        "x": 1.0,
+        "y": 1.0
+    },
+    "size": {
+        "x": 500.0,
+        "y": 300.0
+    },
+    "components": [
+        {
+            "type": "Image",
+            "source": "panel_texture.png",
+            "content": "",
+            "fontSize": 0,
+            "textAnchor": 0,
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            }
+        }
+    ],
+    "children": [
+        {
+            "name": "Ad Text",
+            "position": {
+                "x": -210.0,
+                "y": 130.0
+            },
+            "rotation": 0.0,
+            "scale": {
+                "x": 0.6000000238418579,
+                "y": 0.6000000238418579
+            },
+            "size": {
+                "x": 100.0,
+                "y": 50.0
+            },
+            "components": [
+                {
+                    "type": "Image",
+                    "source": "",
+                    "content": "",
+                    "fontSize": 0,
+                    "textAnchor": 0,
+                    "color": {
+                        "r": 0.9803922176361084,
+                        "g": 0.5921568870544434,
+                        "b": 0.03529411926865578,
+                        "a": 1.0
+                    }
+                }
+            ],
+            "children": [
+                {
+                    "name": "AD Text",
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "rotation": 0.0,
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                    },
+                    "size": {
+                        "x": 80.0,
+                        "y": 50.0
+                    },
+                    "components": [
+                        {
+                            "type": "Text",
+                            "source": "",
+                            "content": "AD",
+                            "fontSize": 30,
+                            "textAnchor": 4,
+                            "color": {
+                                "r": 0.0,
+                                "g": 0.0,
+                                "b": 0.0,
+                                "a": 1.0
+                            }
+                        }
+                    ],
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "Test Ad Text",
+            "position": {
+                "x": 78.0,
+                "y": 80.0
+            },
+            "rotation": 0.0,
+            "scale": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "size": {
+                "x": 300.0,
+                "y": 50.0
+            },
+            "components": [
+                {
+                    "type": "Text",
+                    "source": "",
+                    "content": "Test Ad : Floot-It!",
+                    "fontSize": 30,
+                    "textAnchor": 3,
+                    "color": {
+                        "r": 0.0,
+                        "g": 0.0,
+                        "b": 0.0,
+                        "a": 1.0
+                    }
+                }
+            ],
+            "children": []
+        },
+        {
+            "name": "Ad Image",
+            "position": {
+                "x": -160.0,
+                "y": 30.0
+            },
+            "rotation": 0.0,
+            "scale": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "size": {
+                "x": 150.0,
+                "y": 150.0
+            },
+            "components": [
+                {
+                    "type": "Image",
+                    "source": "",
+                    "content": "",
+                    "fontSize": 0,
+                    "textAnchor": 4,
+                    "color": {
+                        "r": 0.0,
+                        "g": 0.0,
+                        "b": 0.0,
+                        "a": 1.0
+                    }
+                }
+            ],
+            "children": []
+        },
+        {
+            "name": "Free Text",
+            "position": {
+                "x": 78.0,
+                "y": -23.700000762939454
+            },
+            "rotation": 0.0,
+            "scale": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "size": {
+                "x": 300.0,
+                "y": 50.0
+            },
+            "components": [
+                {
+                    "type": "Text",
+                    "source": "",
+                    "content": "Free",
+                    "fontSize": 20,
+                    "textAnchor": 3,
+                    "color": {
+                        "r": 0.0,
+                        "g": 0.0,
+                        "b": 0.0,
+                        "a": 1.0
+                    }
+                }
+            ],
+            "children": []
+        },
+        {
+            "name": "Description",
+            "position": {
+                "x": 0.0,
+                "y": -68.34475708007813
+            },
+            "rotation": 0.0,
+            "scale": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "size": {
+                "x": 450.0,
+                "y": 60.0
+            },
+            "components": [
+                {
+                    "type": "Text",
+                    "source": "",
+                    "content": "Install Flood-It App for free! Free Popular Casual Game",
+                    "fontSize": 25,
+                    "textAnchor": 3,
+                    "color": {
+                        "r": 0.0,
+                        "g": 0.0,
+                        "b": 0.0,
+                        "a": 1.0
+                    }
+                }
+            ],
+            "children": []
+        },
+        {
+            "name": "Install Button",
+            "position": {
+                "x": 0.0,
+                "y": -120.0
+            },
+            "rotation": 0.0,
+            "scale": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "size": {
+                "x": 300.0,
+                "y": 50.0
+            },
+            "components": [
+                {
+                    "type": "Image",
+                    "source": "",
+                    "content": "",
+                    "fontSize": 0,
+                    "textAnchor": 3,
+                    "color": {
+                        "r": 0.18431372940540315,
+                        "g": 0.7960785031318665,
+                        "b": 0.7019608020782471,
+                        "a": 1.0
+                    }
+                }
+            ],
+            "children": [
+                {
+                    "name": "Install Text",
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "rotation": 0.0,
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                    },
+                    "size": {
+                        "x": 300.0,
+                        "y": 50.0
+                    },
+                    "components": [
+                        {
+                            "type": "Text",
+                            "source": "",
+                            "content": "Install",
+                            "fontSize": 30,
+                            "textAnchor": 4,
+                            "color": {
+                                "r": 1.0,
+                                "g": 1.0,
+                                "b": 1.0,
+                                "a": 1.0
+                            }
+                        }
+                    ],
+                    "children": []
+                }
+            ]
+        }
+    ]
+}
